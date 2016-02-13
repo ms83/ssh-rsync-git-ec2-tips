@@ -21,7 +21,7 @@ $ git clone ssh://ec2-user@your-ec2-hostname:your-project.git
 If you want to __rsync__ you localhost data with EC2 server:
 
 ```
-$ rsync -e "ssh -i our-ec2.pem" dir/ ec2-user@your-ec2-hostname:/dir/
+$ rsync -e "ssh -i your-ec2.pem" dir/ ec2-user@your-ec2-hostname:dir/
 ```
 
 If you need to convert __Putty__ key into __OpenSSH__ key:
