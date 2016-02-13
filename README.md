@@ -1,5 +1,5 @@
 # ssh-rsync-git-ec2-tips
-How to use git, rsync and scp with nonstandard sshd setup (i.e. EC2)
+How to use ssh, git, rsync with nonstandard sshd setup (i.e. EC2)
 
 When you buy standard Amazon EC2 server instance, the way you __ssh__ to the server is:
 
